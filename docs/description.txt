@@ -1,0 +1,26 @@
+Oldal szerkezete:
+1.png, 1a.png, 2.png
+
+El lehet térni ettől, de a funkcióknak meg kell lenniük.
+Adat szerkezete:
+
+Ajánlott címkék $$$ Ajánlott speciális címkék $$$ Eredeti címékék $$$ Cím $$$ Cikk szövege
+
+Ajánlott speciális címkék tartalmazzák az egyéb címkéket, ebben csak az egyéb címkéket kell figyelembe venni:
+egyéb címke kategóriába tartozik, ha a címkében szerepel: geography__, organization__, person__ 
+Oldal tartalma:
+Adat betöltése: data.txt, tetszés szerint kezelhetitek a fájlt (pl. feldarabolni).
+
+Legördülő listában kb. 20 cikket kell megjeleníteni és a nyilakkal lehet egyesével és 20-asával (attól függ mennyit jelenítesz meg) lépdelni. Vigyázat, ha első cikknél vagy a vissza gombbal az utolsóra ugrik.
+
+Valószínűség alapján listázza ki a címkéket. A csúszka változtatásával módosul a kilistázott elemek száma.
+
+A min 3 funkció bekapcsolásával, akkor is kilistázza az első 3-at, ha valószínűség alapján kevesebbet listáznak is.
+
+Alul a statisztikák statikus információk.
+
+P és R számítása nem kötelező, de plusz pont: 
+P: Precision - pontosság: helyes találatok száma osztva az ajánlott címkék számával
+R: Recall - fedés: helyes találatok száma osztva az eredeti címkék számával
+
+Oldalt a menüt elég leutánozni, nem kell élőnek lenniük.
