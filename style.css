@@ -120,6 +120,10 @@ nav ul li:last-child{
 .list-label ul:nth-child(2) {
   border-left: 1px solid rgba(0, 0, 0, 0.1);
 }
+
+.list-label li {
+  list-style: none;
+}
 /* cards */
 .card {
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
