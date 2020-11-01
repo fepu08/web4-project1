@@ -53,11 +53,30 @@
                     </select>
                   </div>
 
-                  <div class="btn-group col-4 col-md-2 d-flex justify-content-start">
+                  <div class="btn-group col-4 col-md-2 d-flex justify-content-start flex-row align-items-center">
                     <button type="button" id="button-double-left" class="btn btn-secondary text-center"><i class="fas fa-angle-double-left"></i></button>
                     <button type="button" id="button-left" class="btn btn-secondary"><i class="fas fa-angle-left"></i></button>
                     <button type="button" id="button-right" class="btn btn-secondary"><i class="fas fa-angle-right"></i></button>
                     <button type="button" id="button-double-right" class="btn btn-secondary "><i class="fas fa-angle-double-right"></i></button>
+                  </div>
+                </div>
+              </form>
+
+              <form >
+                <div class="form-row">
+                  <div class="form-group col-8">
+                    <div class="input-group d-flex justify-content-between flex-row align-items-center">
+                      <label for="range"
+                        >Valószinűség: <span id="range-value"></span
+                      ></label>
+                      <div class="d-flex flex-row align-items-center justify-content-end"><input id="min" type="checkbox" /><label>min. 3</label></div>
+                    </div>
+      
+                    <input type="range"class="form-control-range" id="range" min="0" max="1" step="0.01"/>
+                  </div>
+                  <div class="form-group col-2 d-flex flex-column pt-1">
+                    <label for="range">P: <span>1</span></label>
+                    <label for="range">R: <span>1</span></label>
                   </div>
                 </div>
               </form>

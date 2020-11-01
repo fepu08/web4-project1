@@ -96,8 +96,6 @@ nav ul li:last-child{
 }
 
 .btn-group {
-  align-items: center;
-  flex-direction: row;
   margin-top: 14px;
 }
 
@@ -105,4 +103,15 @@ nav ul li:last-child{
   margin: 0 5px;
   width: 35px;
   height: 35px;
+}
+
+.input-group div {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.input-group div > label {
+  margin: 0 0 0 0.4em;
 }
