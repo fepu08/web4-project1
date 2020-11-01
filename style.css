@@ -91,10 +91,6 @@ nav ul li:last-child{
   }
 }
 
-.container {
-  margin: 10px 0;
-}
-
 .btn-group {
   margin-top: 14px;
 }
@@ -114,4 +110,90 @@ nav ul li:last-child{
 
 .input-group div > label {
   margin: 0 0 0 0.4em;
+}
+
+.list-label ul {
+  margin: 0;
+  padding: 0.75rem 1.25rem;
+}
+
+.list-label ul:nth-child(2) {
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+/* cards */
+.card {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+.card-header {
+  color: var(--primary);
+}
+
+.card-header {
+  background-color: #fff;
+}
+
+/* cikk-szovege */
+.cikk-szovege .card-header{
+  border-bottom: none;
+}
+
+
+/* statistic-cards */
+.statistic-data {
+  margin-bottom: 0;
+}
+
+.container-statistic {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.statistic-container i {
+  color: #ebebeb;
+}
+
+.statistic-card ul{
+  padding: 0;
+}
+
+.statistic-card ul li {
+  list-style: none;
+}
+.statistic-card .card-title {
+  font-size: 12px;
+}
+
+.statistic-card ul{
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.statistic-card .card-body ul span {
+  font-weight: 700;
+}
+
+.blue-border-card .card {
+  border-left: 4px solid var(--primary);
+}
+
+.green-border-card .card {
+  border-left: 4px solid var(--success);
+}
+
+.cyan-border-card .card {
+  border-left: 4px solid var(--info);
+}
+
+.blue-border-card .card-title {
+  color: var(--primary);
+}
+
+.green-border-card .card-title {
+  color:  var(--success);
+}
+
+.cyan-border-card .card-title {
+  color:  var(--info);
 }

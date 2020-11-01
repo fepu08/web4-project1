@@ -37,7 +37,7 @@
     </header>
 
     <div class="main-container">
-        <div class="container">
+        <div class="container-fluid">
             <h3>címkeajánló - HETILAP</h3>
             <form>
                 <div class="form-row">
@@ -81,7 +81,133 @@
                 </div>
               </form>
 
+              <div class="row">
+                <div class="col-lg-6">
+                    <div class="card h-100 cikk-szovege">
+                        <h3 class="card-header">Cikk szövege</h3>
+                        <div class="card-body">
+                            <p id="cikk-szovege-content" class="card-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum doloremque veniam molestiae dolorem distinctio nobis animi voluptates, voluptate consequuntur dolore aut odit voluptatum est, id, error saepe commodi suscipit inventore ea sapiente dicta enim cumque? Praesentium aperiam saepe vero obcaecati vitae quas quo perspiciatis, culpa voluptates, atque, quod ducimus? Vero, ad enim placeat praesentium eveniet eius exercitationem nobis! Dolore molestiae possimus, ea, molestias, 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="row mb-3">
+                        <div class="col-12">
+                            <div class="card w-100 h-100 card-left">
+                                <div class="title-label d-flex flex-row justify-content-start p-0">
+                                    <h5 class="card-header title-top w-50">Eredeti címkék</h5>
+                                    <h5 class="card-header title-top w-50">Ajánlott címkék</h5>
+                                </div>
+                                <div class="card-body list-label d-flex flex-row justify-content-start p-0">
+                                    <ul id="eredeti-cimkek" class="list-top w-50">
+
+                                    </ul>
+                                    <ul id="ajanlott-cimkek" class="list-top w-50">
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-12">
+                            <div class="card w-100 h-100 card-left">
+                                <div class="title-label d-flex flex-row justify-content-start p-0">
+                                    <h5 class="card-header title-bottom-first w-50">Eredeti címkék (egyéb)</h5>
+                                    <h5 class="card-header title-bottom-second w-50">Ajánlott címkék(egyéb)</h5>
+                                </div>
+                                <div class="card-body list-label d-flex flex-row justify-content-start p-0">
+                                    <ul id="eredeti-egyeb-cimkek" class="list-bottom-first w-50">
+
+                                    </ul>
+                                    <ul id="ajanlott-cimkek-egyeb" class="list-bottom-second w-50">
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+              <div class="row mt-3">
+                <div class="col-12 col-md-6 col-lg-3 blue-border-card statistic-card">
+                    <div class="card w-100 h-100">
+                        <div class="card-body statistic-container d-flex flex-row align-items-center justify-content-between">
+                            <div class="list-data">
+                                <h5 class="card-title mb-1 text-uppercase">Hetilap</h5>
+                                <ul>
+                                    <li>cikk: <span>110 ezer</span></li>
+                                    <li>címke: <span>1023 db</span></li>
+                                    <li>token: <span>73 millió</span></li>
+                                    <li>type: <span>62 ezer</span></li>
+                                </ul>
+                            </div>
+                            <i class="fas fa-3x fa-clipboard-list"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 blue-border-card statistic-card">
+                    <div class="card w-100 h-100">
+                        <div class="card-body statistic-container d-flex flex-row align-items-center justify-content-between">
+                            <div class="list-data">
+                                <h5 class="card-title mb-1 text-uppercase">Hetilap +</h5>
+                                <ul>
+                                    <li>cikk: <span>110 ezer</span></li>
+                                    <li>címke: <span>26901 db</span></li>
+                                    <li>token: <span>73 millió</span></li>
+                                    <li>type: <span>36 ezer</span></li>
+                                </ul>
+                            </div>
+                            <i class="fas fa-3x fa-clipboard-list"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 green-border-card statistic-card">
+                    <div class="card w-100 h-100">
+                        <div class="card-body statistic-container d-flex flex-row align-items-center justify-content-between">
+                            <div class="list-data">
+                                <h5 class="card-title mb-1 text-uppercase">Online</h5>
+                                <ul>
+                                    <li>cikk: <span>80 ezer</span></li>
+                                    <li>címke: <span>76654 db</span></li>
+                                    <li>token: <span>35 millió</span></li>
+                                    <li>type: <span>33 ezer</span></li>
+                                </ul>
+                            </div>
+                            <i class="fas fa-3x fa-clipboard-list"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 cyan-border-card statistic-card">
+                    <div class="card w-100 h-100">
+                        <div class="card-body statistic-container d-flex flex-row align-items-center justify-content-between">
+                            <div class="statistic-data">
+                                <h5 class="card-title mb-1 text-uppercase">Hetilap+ Online</h5>
+                                <ul>
+                                    <li>cikk: <span>195 ezer</span></li>
+                                    <li>címke: <span>104432 db</span></li>
+                                    <li>token: <span>112 millió</span></li>
+                                    <li>type: <span>38 ezer</span></li>
+                                </ul>
+                            </div>
+                            <i class="fas fa-3x fa-clipboard-list"></i>
+                        </div>
+                    </div>
+                </div>
+              </div>
         </div>
+
+        <footer class="text-center my-4 text-secondary">
+            <p>PROJEKT &bull; 2020</p>
+        </footer>
     </div>
     <!-- JS -->
     <script src="app.js"></script>
