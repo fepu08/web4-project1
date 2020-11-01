@@ -2,6 +2,7 @@
 const nav = document.getElementById('side-nav');
 const showNav = document.getElementById('show-nav-btn');
 const hideNav = document.getElementById('hide-nav-btn');
+const showNavHeader = document.getElementById('show-nav-header');
 
 // Show nav
 showNav.addEventListener('click', () => {
@@ -10,7 +11,7 @@ showNav.addEventListener('click', () => {
         nav.style.transform = 'translateX(0%)';
     }
     document.body.classList.add('show-nav');
-    showNav.classList.add('d-none');
+    showNavHeader.classList.add('d-none');
 
 getTranslateX(nav);
     /*document.body.classList.add('show-nav')
@@ -22,5 +23,5 @@ hideNav.addEventListener('click', () => {
         nav.style.transform = 'translateX(-100%)';
     }
     document.body.classList.remove('show-nav');
-    showNav.classList.remove('d-none');
+    showNavHeader.classList.remove('d-none');
 });
