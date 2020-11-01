@@ -13,7 +13,6 @@ showNav.addEventListener('click', () => {
     document.body.classList.add('show-nav');
     showNavHeader.classList.add('d-none');
 
-getTranslateX(nav);
     /*document.body.classList.add('show-nav')
     showNav.classList.add('d-none');*/
 });
